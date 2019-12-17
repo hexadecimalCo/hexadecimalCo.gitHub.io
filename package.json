@@ -1,0 +1,35 @@
+{
+  "name": "hexadcimal-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "img": "gulp img",
+    "product": "gulp --env production"
+  },
+  "author": "Arvin",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-changed": "^3.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "minimist": "^1.2.0"
+  }
+}
